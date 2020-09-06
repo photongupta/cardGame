@@ -10,8 +10,8 @@ const Card = function ({cardDetails, flipCard, id}) {
       <input type="checkbox" checked={isFlipped} onChange={handleChange} />
       <div className="card-holder">
         <div className="card">
-          <Img side="front" src={`/PNG/${card}.png`} />
-          <Img side="back" src="PNG/purple_back.png" />
+          <Img side="front" src={`./PNG/${card}.png`} />
+          <Img side="back" src="./PNG/purple_back.png" />
         </div>
       </div>
     </label>
